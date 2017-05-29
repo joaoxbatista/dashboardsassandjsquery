@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../../src/sass/phone.css",
+	"sources": [
+		"../../src/sass/phone.sass"
+	],
+	"sourcesContent": [
+		"$size: 360px;\n\n@media (max-width: 360px) {\n    #app {\n        box-sizing: border-box;\n        padding: 0px;\n        #side-menu {\n            position: relative;\n            width: 100vw;\n\n            #button-menu {\n                height: 30px;\n                width: 30px;\n                margin-right: 10px;\n                line-height: 30px;\n                font-size: .8em; } }\n\n        #content {\n            position: relative;\n            float: none;\n            width: 100vw;\n            padding: 1em; } } }\n"
+	],
+	"mappings": ";AAEA,MAAM,EAAL,SAAS,EAAE,KAAK;;EACb,AAAA,IAAI,CAAC;IACD,UAAU,EAAE,UAAW;IACvB,OAAO,EAAE,GAAI;GAgBS;;EAlB1B,AAGI,IAHA,CAGA,UAAU,CAAC;IACP,QAAQ,EAAE,QAAS;IACnB,KAAK,EAAE,KAAM;GAOY;;EAZjC,AAOQ,IAPJ,CAGA,UAAU,CAIN,YAAY,CAAC;IACT,MAAM,EAAE,IAAK;IACb,KAAK,EAAE,IAAK;IACZ,YAAY,EAAE,IAAK;IACnB,WAAW,EAAE,IAAK;IAClB,SAAS,EAAE,IAAK;GAAG;;EAZ/B,AAcI,IAdA,CAcA,QAAQ,CAAC;IACL,QAAQ,EAAE,QAAS;IACnB,KAAK,EAAE,IAAK;IACZ,KAAK,EAAE,KAAM;IACb,OAAO,EAAE,GAAI;GAAG",
+	"names": []
+}

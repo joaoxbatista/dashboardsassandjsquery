@@ -1,0 +1,30 @@
+@charset "UTF-8";
+@media (max-width: 360px) {
+  /* line 4, C:/Users/João Batista/Desktop/dashboard/src/sass/phone.sass */
+  #app {
+    box-sizing: border-box;
+    padding: 0px;
+  }
+  /* line 7, C:/Users/João Batista/Desktop/dashboard/src/sass/phone.sass */
+  #app #side-menu {
+    position: relative;
+    width: 100vw;
+  }
+  /* line 11, C:/Users/João Batista/Desktop/dashboard/src/sass/phone.sass */
+  #app #side-menu #button-menu {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    line-height: 30px;
+    font-size: .8em;
+  }
+  /* line 18, C:/Users/João Batista/Desktop/dashboard/src/sass/phone.sass */
+  #app #content {
+    position: relative;
+    float: none;
+    width: 100vw;
+    padding: 1em;
+  }
+}
+
+/*# sourceMappingURL=../../dist/css/phone.map */

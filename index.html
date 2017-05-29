@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboar for managment Bots</title>
+    <link rel="stylesheet" href="dist/css/app.css">
+    <link rel="stylesheet" href="dist/css/perfect-scrollbar.min.css">
+</head>
+<body>
+    <div id="app">
+       
+        <button id="button-menu"><i class="fa fa-reorder"></i></button>
+        <div id="side-menu">
+            
+                        
+            <div id="profile-menu">
+            
+                <img src="dist/imgs/img-profile.jpg" alt="" id="profile-image">
+                
+                <div id="content-profile-menu">
+                    <h3 id="profile-username">
+                    Mr. John Gomes
+                    </h3>
+                    
+                    <p id="last-visit">
+                        20 de Abril de 2017
+                    </p>
+                </div>
+                
+            </div>
+            
+            <div id="content-side-menu">
+                <div class="group-menu">
+                    <h3><i class="fa fa-circle-o-notch"></i> Módulo de Agendamento</h3>
+                    <nav>
+                        
+                        <li><a href="#"><i class="fa fa-handshake-o"></i> Services</a></li>
+                        <li><a href="#"><i class="fa fa-calendar"></i> Schedules</a></li>
+                    </nav>
+                </div>
+                
+                <div class="group-menu">
+                    <h3><i class="fa fa-circle-o-notch"></i> Módulo de Vendas</h3>
+                    <nav>
+                        <li><a href="#"><i class="fa fa-industry"></i> Providers</a></li>
+                        <li><a href="#"><i class="fa fa-archive"></i> Products</a></li>
+                        <li><a href="#"><i class="fa fa-shopping-cart"></i> Orders</a></li>
+                        <li><a href="#"><i class="fa fa-vcard"></i> Sallers</a></li>
+                        <li><a href="#"><i class="fa fa-database"></i>Stock</a></li>
+                    </nav>
+                </div>
+                
+                <div class="group-menu">
+                    <h3><i class="fa fa-circle-o-notch"></i> Financiero</h3>
+                    <nav>
+                        <li><a href="#"><i class="fa fa-group"></i> Clients</a></li>
+                        <li><a href="#"><i class="fa fa-credit-card"></i> Payments</a></li>
+                    </nav>
+                </div>
+                
+                <div class="group-menu">
+                    <h3><i class="fa fa-circle-o-notch"></i> Configurações</h3>
+                    <nav>
+                        <li><a href="#"><i class="fa fa-user"></i> Profile</a></li>
+                        <li><a href="#"><i class="fa fa-power-off"></i>Sair</a></li>
+                    </nav>
+                </div>
+             
+            </div>
+            
+        </div>
+        <div id="content">
+            
+            <h1>Content Here</h1>
+            
+            <h3>Description for box one here</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum laborum accusantium, cumque voluptatem pariatur doloremque repellat mollitia blanditiis quidem sint ab deserunt tenetur enim vero, aliquam, deleniti dolore molestiae asperiores.</p>
+            <a href="#">Come to subject</a>
+            
+            <h3>Description for box two here</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum laborum accusantium, cumque voluptatem pariatur doloremque repellat mollitia blanditiis quidem sint ab deserunt tenetur enim vero, aliquam, deleniti dolore molestiae asperiores.</p>
+            <a href="#">Come to subject</a>
+            
+            <h3>Description for box two here</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum laborum accusantium, cumque voluptatem pariatur doloremque repellat mollitia blanditiis quidem sint ab deserunt tenetur enim vero, aliquam, deleniti dolore molestiae asperiores.</p>
+            <a href="#">Come to subject</a>
+            
+            <h3>Description for box two here</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum laborum accusantium, cumque voluptatem pariatur doloremque repellat mollitia blanditiis quidem sint ab deserunt tenetur enim vero, aliquam, deleniti dolore molestiae asperiores.</p>
+            <a href="#">Come to subject</a>
+            
+            <h3>Description for box two here</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum laborum accusantium, cumque voluptatem pariatur doloremque repellat mollitia blanditiis quidem sint ab deserunt tenetur enim vero, aliquam, deleniti dolore molestiae asperiores.</p>
+            <a href="#">Come to subject</a>
+            
+            <h3>Description for box two here</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum laborum accusantium, cumque voluptatem pariatur doloremque repellat mollitia blanditiis quidem sint ab deserunt tenetur enim vero, aliquam, deleniti dolore molestiae asperiores.</p>
+            <a href="#">Come to subject</a>
+            
+            <h3>Description for box two here</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum laborum accusantium, cumque voluptatem pariatur doloremque repellat mollitia blanditiis quidem sint ab deserunt tenetur enim vero, aliquam, deleniti dolore molestiae asperiores.</p>
+            <a href="#">Come to subject</a>
+            
+            <h3>Description for box two here</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum laborum accusantium, cumque voluptatem pariatur doloremque repellat mollitia blanditiis quidem sint ab deserunt tenetur enim vero, aliquam, deleniti dolore molestiae asperiores.</p>
+            <a href="#">Come to subject</a>
+            
+        </div>
+        
+        
+    </div>
+    
+    <!-- Importação dos Scrips JS-->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="dist/js/perfect-scrollbar.jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#content').perfectScrollbar({
+                wheelSpeed: 6
+            });
+            $('#side-menu').perfectScrollbar();
+            
+            $("#side-menu").find(".ps-scrollbar-y-rail").css({"opacity":0});
+        });
+    </script>
+    
+    <script src="dist/js/menu.js"></script>
+</body>
+</html>
